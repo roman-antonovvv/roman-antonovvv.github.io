@@ -221,7 +221,7 @@ $(document).on('keyup', function(e) {
 
 
 
-// Active element
+// Active elements
 
 $(document).on('click', 'header .nav_fluid nav ul li span', function(e) {
 
