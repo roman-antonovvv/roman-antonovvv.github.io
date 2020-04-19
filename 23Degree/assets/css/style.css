@@ -212,7 +212,6 @@ h6 a {
 header {
   padding-top: 35px;
   padding-bottom: 55px;
-  background: #363636 url('../img/no_WebP/header/bg.jpg') no-repeat center center / cover;
   color: #fff;
 }
 header p {
@@ -340,6 +339,9 @@ header .warranty p {
 header .down {
   margin-top: 80px;
 }
+html.no-webp header {
+  background: #363636 url('../img/no_WebP/header/bg.jpg') no-repeat center center / cover;
+}
 html.webp header {
   background: #363636 url('../img/WebP/header/bg.webp') no-repeat center center / cover;
 }
@@ -377,7 +379,6 @@ html.webp header {
 }
 #calculate_the_cost {
   padding-bottom: 65px;
-  background: #363636 url('../img/no_WebP/calculate_the_cost/bg.jpg') no-repeat center center / cover;
 }
 #calculate_the_cost p {
   color: #fff;
@@ -494,6 +495,9 @@ html.webp header {
 #calculate_the_cost .data_block .number {
   font-size: 18px;
   font-weight: 500;
+}
+html.no-webp #calculate_the_cost {
+  background: #363636 url('../img/no_WebP/calculate_the_cost/bg.jpg') no-repeat center center / cover;
 }
 html.webp #calculate_the_cost {
   background: #363636 url('../img/WebP/calculate_the_cost/bg.webp') no-repeat center center / cover;
