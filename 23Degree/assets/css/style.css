@@ -212,7 +212,7 @@ h6 a {
 header {
   padding-top: 35px;
   padding-bottom: 55px;
-  background: #363636 url('../img/header/bg.jpg') no-repeat center center / cover;
+  background: #363636 url('../img/no_WebP/header/bg.jpg') no-repeat center center / cover;
   color: #fff;
 }
 header p {
@@ -340,6 +340,9 @@ header .warranty p {
 header .down {
   margin-top: 80px;
 }
+html.webp header {
+  background: #363636 url('../img/WebP/header/bg.webp') no-repeat center center / cover;
+}
 #our_services {
   padding-top: 60px;
   padding-bottom: 50px;
@@ -374,7 +377,7 @@ header .down {
 }
 #calculate_the_cost {
   padding-bottom: 65px;
-  background: #363636 url('../img/calculate_the_cost/bg.jpg') no-repeat center center / cover;
+  background: #363636 url('../img/no_WebP/calculate_the_cost/bg.jpg') no-repeat center center / cover;
 }
 #calculate_the_cost p {
   color: #fff;
@@ -491,6 +494,9 @@ header .down {
 #calculate_the_cost .data_block .number {
   font-size: 18px;
   font-weight: 500;
+}
+html.webp #calculate_the_cost {
+  background: #363636 url('../img/WebP/calculate_the_cost/bg.webp') no-repeat center center / cover;
 }
 #portfolio {
   padding: 50px 0 20px 0;
@@ -643,11 +649,14 @@ header .down {
 #_50_companies_trust_us .scrollbar .handle {
   width: 32px;
   height: 11px;
-  background: #19b5fe url('../img/50_companies_trust_us/slider_scrollbar_handle.png') no-repeat center center;
+  background: #19b5fe url('../img/no_webP/50_companies_trust_us/slider_scrollbar_handle.png') no-repeat center center;
   border-radius: 5px;
   position: relative;
   bottom: 3px;
   cursor: pointer;
+}
+html.webp #_50_companies_trust_us .scrollbar .handle {
+  background: #19b5fe url('../img/webP/50_companies_trust_us/slider_scrollbar_handle.webp') no-repeat center center;
 }
 #our_team {
   padding: 60px 0;
@@ -715,7 +724,7 @@ header .down {
 }
 #still_have_questions {
   padding: 60px 0;
-  background: #363636 url('../img/still_have_questions/bg.jpg') no-repeat center center / cover;
+  background: #363636 url('../img/no_webP/still_have_questions/bg.jpg') no-repeat center center / cover;
 }
 #still_have_questions p,
 #still_have_questions button {
@@ -777,6 +786,9 @@ header .down {
   margin-top: 15px;
   font-weight: 300;
   white-space: nowrap;
+}
+html.webp #still_have_questions {
+  background: #363636 url('../img/webP/still_have_questions/bg.webp') no-repeat center center / cover;
 }
 #map {
   height: 600px;
