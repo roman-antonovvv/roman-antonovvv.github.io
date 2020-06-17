@@ -5278,7 +5278,7 @@ jQuery.event = {
 					special.setup.call( elem, data, namespaces, eventHandle ) === false ) {
 
 					if ( elem.addEventListener ) {
-						elem.addEventListener( type, eventHandle );
+						elem.addEventListener( type, eventHandle, {passive: true} );
 					}
 				}
 			}
