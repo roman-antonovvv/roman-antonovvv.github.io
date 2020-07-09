@@ -5,7 +5,7 @@
     if (navigator.userAgent.search(/MSIE/) != -1 || navigator.userAgent.search(/Trident/) != -1 || /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
       const js = document.createElement('script');
       js.setAttribute('src',       'assets/js/script_babel.js');
-      // js.setAttribute('async',     '');
+      js.setAttribute('async',     '');
       document.body.appendChild(js);
     } 
 
@@ -13,6 +13,6 @@
     else {
       const js = document.createElement('script');
       js.setAttribute('src',   'assets/js/script.js');
-      // js.setAttribute('async', '');
+      js.setAttribute('async', '');
       document.body.appendChild(js);
     };</script></body></html>
